@@ -1,0 +1,103 @@
+/* p{
+    color:rgb(126, 49, 14);
+    font-family: Rightland;
+} */
+.img-antice-olimpice{
+    height: 200px;
+    position: absolute;
+    width: 300px;
+    
+}
+header,section p {
+    font-family: Rightland;
+    font-size: 25px;
+}
+.head,.head2{
+    background-color: brown;   
+    height: 90px;
+    width: 100%;
+    text-align:center;
+    font-family: Rightland;
+}
+.head3{
+    background-color: brown;   
+    height: 80px;
+    width: 100%;
+    text-align:center;
+    font-family: Rightland;
+    margin-top: 300px;
+    padding: 10px 10px 0px;
+}
+.head2 h2{
+    padding:25px 0px;
+}
+.simbol{
+    height: 50px;
+    width: 50px;
+    position:absolute; 
+    left: 10px;
+    right: auto;
+    top:10px;
+    bottom: 10px;
+    float: left;
+}
+button{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 350px;
+    right: 300px;
+    top: 800px;;
+    bottom: 100px;
+    text-align:center;
+    color: orangered;
+    background-color: orange;
+    
+}
+.butonul{
+    padding:500px 0px;/*Padding reprezinta distanta dintre blocul respectiv si blocul precedent.*/
+}
+
+nav {/* In CSS putem scrie denumirea tagului pentri a-i adauga anumite caracteristici.*/
+    float: right; 
+    margin-right: 10%;
+}
+
+nav ul li{
+    /*Cu cat avansam in interiorul blocului va fi nevoie sa scriem denumirea fiecarui tip de tag pe care l-am 
+    parcurs pentru a ajunge la tag-ul unde vrem sa stilizam.*/
+    display: inline-block;/*Display transforma fiecare element al listei intr-un bloc,unul dupa altul. Astfel putem stiliza
+    header-ul fara sa afectam formatul elementelor listei*/
+    margin-left: 20px;/*Vrem ca blocul DESPRE sa fie pozitionat cu 20px mai la stanga in raport cu blocul HISTORIA.*/
+   
+}
+a{/*Am stilizat link-urile */
+    color:rgb(206, 172, 23) ;
+    text-decoration:none;/*Nu mai avem link-urile subliniate*/
+}
+
+
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: brown;
+    margin:300px 0px 0px 0px;
+    /*
+    margin:300px 0px;
+    Prima valoare este pentru margin-top si margin-bottom, iar cea de-a doua valoare se adreseaza 
+    valorilor lui margin-left si margin-right.
+    Se poate scrie si margin:300px 0px 0px 0px ; este acelasi lucru. 
+    */
+}
+footer p{
+    color: rgb(206, 172, 23) ;
+    text-align: center;
+}
+.p_inceput{
+    font-size: 20px;
+}
+.imagine_flacara{
+    margin-left: 40% ;
+    height: 300px;
+    width: 200px;
+}

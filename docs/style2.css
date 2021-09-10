@@ -1,0 +1,53 @@
+@font-face{/*Folosim @font-face cand importam un font*/
+    font-family: Rightland;/*ii dam o denumire*/
+    src:url("Rightland.otf");/*cum il acceseaza*/
+}
+.articol article p {
+    background-color: brown;
+    width: 100%;
+    padding: 20px 20px;
+   
+}
+
+.articol {
+    padding: 20px 0px;
+    width: 21%;
+    float: left;/* float muta un bloc spre stanga in raport cu blocul precedent*/
+    margin: 0px 2%;
+    font-size: 14;
+    font-family: Rightland;
+    text-indent: 20px
+}
+.articol article{
+    padding:0px 0px;
+}
+.video{
+    width: 100%;
+    background-color: brown;
+    height: 210px;
+}
+.video video{
+    margin:0% 40%;
+    height: 210px;
+}
+.citate p{
+    font-family: Rightland;
+    font-size: 25;
+    padding: 20px 20px;
+}
+.bordura{
+    border: solid;
+    border-color: brown;
+}
+.cartile{
+    margin-top:700px;
+    margin-left: 0px;
+    font-family: Rightland;
+    font-size: 15px;
+    color:brown;
+}
+
+.tabel tr,td {
+    border: 2px solid brown;
+    
+}
